@@ -1,0 +1,228 @@
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat', sans-serif;
+}
+body
+{
+    text-align: center;
+}
+
+/* Headings */
+.big-heading
+{
+    font-size: 3rem;
+    line-height: 1.5; 
+    font-weight: 900;
+}
+.section-heading
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title
+{   
+    padding-bottom: 3%;
+    text-align: left;
+}
+/* Sections */
+.white-section
+{
+    background-color: #fff;
+}
+.colored-section
+{
+    background-color:#ff4c68;  
+    color: #fff;
+}
+/* Navigation Bar */
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item
+{
+    padding: 0 20px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light',sans-serif;
+}
+.col-lg-6
+{
+    padding: 0%;
+}
+
+.container-fluid
+{
+    padding: 3% 16% 7%;
+}
+.fa-apple
+{
+    padding-right: 5px;
+}
+.fa-google-play
+{
+    padding-right: 5px;
+}
+
+.iPhone-img
+{
+    transform: rotate(25deg);
+    width: 45%;
+    position: absolute;
+    right: 30%
+}
+
+@media(max-width:992px) 
+{
+    #title
+    {
+        text-align: center;
+    }
+    .iPhone-img
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Download Button */
+
+.download-button
+{
+    margin: 10% 3% 5% 0%;
+}
+
+/* Features */
+#features
+{
+    position: relative;
+}
+.feature-title
+{
+    font-size: 2rem; 
+}
+.circle-check,.bullseye,.heart
+{
+  color: #ef8172;
+}
+
+.circle-check:hover,.bullseye:hover,.heart:hover
+{
+    color: #ff4c68;
+}
+
+.icons:hover
+{
+    color: #ff4c68;
+}
+
+.feature-text-heading
+{
+    font-size: 2rem;
+}
+.paragrah-feature
+{
+    color: #8f8f8f;
+}
+
+
+/* Testimonoial Section  */
+
+#testimonials
+{
+    background-color: #ef8172;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;;
+}
+.carousel-item
+{
+    padding: 5% 15%;
+}
+
+/* Press Section */
+
+#press
+{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo
+{
+    width: 12%;
+    margin:20px 20px 50px; /*top, left-right, bottom*/
+}
+
+/* Pricing */
+#pricing
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.price-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column
+{
+    padding: 1% 2%;
+}
+.pricing-row
+{
+    padding: 3% 10% 0%;
+}
+.plan
+{
+    color: #8f8f8f;
+}
+
+/* Call to action */
+#cta
+{
+    padding: 5% 30%;
+}
+
+.download-button-bottom
+{
+    margin: 2% 0.5% 3% 
+}
+
+/* Footer */
+.fa-social
+{
+    margin-top: 1%;
+    padding-right: 0.4%;
+}
+.copyright
+{
+    color:#8f8f8f;
+}
+.row
+{
+    margin-left: 0%;
+    margin-right: 0%;
+}
